@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
+  },
+  {
+    path: 'plugins',
+    loadChildren: () => import('./plugins/plugins.module').then( m => m.PluginsPageModule)
   }
 ];
 
