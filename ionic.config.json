@@ -1,0 +1,7 @@
+{
+  "name": "cordovaPermissions",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
